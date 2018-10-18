@@ -1,0 +1,10 @@
+ext{
+    // 单元测试版本号
+    test_junit_version = "4.12"
+    test_mockito_version = "2.23.0"
+
+    test_androidx_runner_version = "1.1.0-beta01"
+    test_androidx_rules_version = "1.1.0-beta01"
+    test_androidx_espresso_version = "3.1.0-beta01"
+    test_androidx_uiautomatorVersion = "2.2.0-beta01"
+}
