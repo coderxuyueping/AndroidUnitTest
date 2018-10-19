@@ -17,6 +17,9 @@ import org.junit.runner.RunWith
  * Copyright 杭州九爱科技有限公司. All rights reserved
  * Created by xyp on 2018/10/17.
  * UI测试
+ * @SmallTest：测试代码中不与任何的文件系统或网络交互。
+ * @MediumTest：测试代码中访问测试用例运行时所在的设备的文件系统。
+ * @LargeTest：测试代码中访问外部的文件系统或网络。
  */
 @RunWith(AndroidJUnit4::class)
 class MainActivityTest {
